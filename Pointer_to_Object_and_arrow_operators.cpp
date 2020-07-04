@@ -16,7 +16,7 @@ class Complex {
 
 int main() {
     Complex *ptr = new Complex;
-    ptr->set(5,20);
+    ptr->set(5,20); // we can both ways 
     (*ptr).get();
     return 0;
 }
