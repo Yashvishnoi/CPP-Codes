@@ -1,13 +1,14 @@
 #include<iostream>
 using namespace std;
 
-template <class T> T sum (Tx , Ty) {
+template <class T>
+ T sum (T x , T y) {
 	T z;
 	z=x+y;
 	return (z);
 } 
 
-int main {
+int main() {
 	int x1= 5;
 	int y1 = 5;
 	int z1 = sum<int>(x1 , y1) ; 
