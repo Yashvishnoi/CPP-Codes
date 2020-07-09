@@ -25,5 +25,7 @@ template <class T> T Sum<T>::getSum() {
 int main() {
 	Sum <int> z1(5,5);
 	cout<<z1.getSum() <<"\n";
+	Sum <double> z2(5.5 , 5.6);
+	cout<<z2.getSum() <<"\n";
 	return 0;
 }
