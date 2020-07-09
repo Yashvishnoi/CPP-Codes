@@ -6,7 +6,7 @@ template <class T> class Sum{
 		T x;
 		T y;
 	public:
-		Sum(T x, T y)
+		Sum(T x, T y);
 		T getSum();
 		
 };
