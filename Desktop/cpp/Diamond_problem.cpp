@@ -16,12 +16,12 @@ using namespace std;
 		 cout<<"\n";
 	 }
 	 space = 1;
-	 for(i=1;i<(rows-1);i++) {
+	 for(i=1;i<=(rows-1);i++) {
 	 	for(j=1;j<=space;j++) {
 	 		cout<<" ";
 		 }
 		 space ++;
-		 for(j=1;j<=(2*(rows-1)-1);j++) {
+		 for(j=1;j<=(2*(rows-i)-1);j++) {
 		 cout<<"* ";
 		 }
 		 cout<<"\n";		 
