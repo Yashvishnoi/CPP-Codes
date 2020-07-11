@@ -23,7 +23,7 @@ int main() {
 	float z3 = sum<float>(x2 , y2) ;	 
 	cout<<z1 <<"\n";
 	cout<<z2<<"\n";
-	cout<<z3<<"\n";
+		cout<<z2<<"\n";
 	return 0;
 	
 }

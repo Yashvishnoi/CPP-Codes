@@ -2,16 +2,16 @@
 using namespace std;
 
 class Base {
-	int varBase;
 	public:
+		int varBase = 1;
 		void display() {
 			cout<<"Base class variable varBase "<<varBase<<"\n";
 			}
 };
 
 class Derived : public Base {
-	int varDerived ; 
-	public :
+	public:
+		int varDerived = 2; 
 		void display() {
 			cout<<"Base class variable varBase "<<varBase<<"\n";
 			cout<<"Derived class variable varDerived "<<varDerived <<"\n";
@@ -19,8 +19,11 @@ class Derived : public Base {
 };
 
 int main() {
-	Base *b ;
-	Derived &d;
-	b->d.display();
+	Base *b_pointer ;
+	Base b_object;
+	Derived d_object;
+	
+	b_pointer=&d_object;
+	b_pointer->display();
 	return 0;
 }
