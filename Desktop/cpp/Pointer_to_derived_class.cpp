@@ -23,6 +23,7 @@ int main() {
 	Derived d_object;
 	
 	b_pointer=&d_object;
+	b_pointer -> varBase = 58;
 	b_pointer->display();
 	Derived *d_pointer;
 	d_pointer = &d_object;
