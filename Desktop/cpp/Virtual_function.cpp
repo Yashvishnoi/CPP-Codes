@@ -20,7 +20,6 @@ class Derived : public Base {
 
 int main() {
 	Base *b_pointer ;
-	Base b_object;
 	Derived d_object;
 	
 	b_pointer=&d_object;
