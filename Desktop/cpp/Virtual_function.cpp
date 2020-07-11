@@ -6,7 +6,7 @@ class Base {
 		int varBase = 1;
 		virtual void display() {
 			cout<<"Base class variable varBase "<<varBase<<"\n";
-			
+	}
 };
 
 class Derived : public Base {
