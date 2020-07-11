@@ -4,9 +4,9 @@ using namespace std;
 class Base {
 	public:
 		int varBase = 1;
-		void display() {
+		virtual void display() {
 			cout<<"Base class variable varBase "<<varBase<<"\n";
-			}
+			
 };
 
 class Derived : public Base {
