@@ -24,5 +24,10 @@ int main() {
 	
 	b_pointer=&d_object;
 	b_pointer->display();
+	Derived *d_pointer;
+	d_pointer = &d_object;
+	d_pointer->varDerived = 91;
+	d_pointer->display();
+	
 	return 0;
 }
